@@ -43,21 +43,6 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
-::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 10px;
-}  
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: #DBDBDC;
-    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-}
-@media screen and (min-width: 768px) {
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 10px;
-    }
-}
 html {
     scroll-behavior: smooth;
 }
