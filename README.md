@@ -11,4 +11,4 @@ https://boxicons.com/
 
 ----------------------------
 
-![CV-thumbnail](https://github.com/danielpienaar/MyCV/blob/master/Annotation%202020-08-24%20150610.png)
+![CV-thumbnail](https://github.com/danielpienaar/MyCV/blob/master/preview.png)
