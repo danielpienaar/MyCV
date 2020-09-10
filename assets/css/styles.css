@@ -43,6 +43,24 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: rgba(0, 0, 0, .69);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .2);
+}
+::-webkit-scrollbar-track-piece {
+    background: rgba(0, 0, 0, .2);
+}
 html {
     scroll-behavior: smooth;
 }
@@ -157,6 +175,9 @@ textarea {
         background-color: rgb(255, 255, 255, .3);
         transition: .5s;
         backdrop-filter: blur(10px);
+        -o-backdrop-filter: blur(10px);
+        -moz-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 }
 .nav-item {
@@ -347,6 +368,9 @@ textarea {
     border-radius: .5rem;
     cursor: default;
     backdrop-filter: blur(10px);
+    -o-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     transition: .3s;
 }
 .portfolio-link a {
@@ -413,6 +437,7 @@ textarea {
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
+    -webkit-appearance: none;
     transition: .3s;
 }
 .contact-button:hover {

@@ -142,13 +142,13 @@
                         <h3 class="contact-subtitle"><i class='bx bx-map'></i> Location</h3>
                         <span class="contact-text">South Africa</span>
                     </div>
-                    <form action="" class="contact-form">
+                    <form action="https://formspree.io/moqkgrqn" method="POST" class="contact-form">
                         <div class="contact-inputs">
-                            <input type="text" placeholder="Name" class="contact-input">
-                            <input type="mail" placeholder="Email" class="contact-input">
+                            <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                            <input type="email" name="_replyto" placeholder="Your Email" class="contact-input" required>
                         </div>
-                        <textarea name="Message" id="Message" placeholder="Message" cols="0" rows="10" class="contact-input"></textarea>
-                        <input type="submit" value="Submit" class="contact-button">
+                        <textarea name="message" id="Message" placeholder="Message" cols="0" rows="10" class="contact-input" required></textarea>
+                        <input type="submit" value="Send" class="contact-button">
                     </form>
                 </div>
             </section>
