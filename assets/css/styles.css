@@ -351,6 +351,7 @@ textarea {
 .portfolio-img {
     position: relative;
     overflow: hidden;
+    max-width: 640px;
 }
 .portfolio-img img {
     border-radius: .5rem;
