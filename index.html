@@ -85,21 +85,29 @@
                 <h2 class="section-title">Skills</h2>
                 <div class="skills-container bd-grid">
                     <div class="skills-box">
-                        <h3 class="skills-subtitle">Development Experience</h3>
-                        <span class="skills-name">HTML</span>
-                        <span class="skills-name">CSS</span>
-                        <span class="skills-name">SCSS</span>
-                        <span class="skills-name">Javascript</span>
-                        <span class="skills-name">JQuery</span>
-                        <span class="skills-name">Java</span>
-                        <span class="skills-name">C#</span>
-                        <span class="skills-name">SQL</span>
-                        <span class="skills-name">Git</span>
+                        <h3 class="skills-subtitle">Development Experience - Click tiles for more info</h3>
+                        <a class="skills-button" id="HTML" onclick="skillSelected(this);"><span class="skills-name">HTML</span></a>
+                        <!-- <div id="html" class="popup">
+                            HTML
+                            <div class="cancel" id="htmlClose" onclick="closePopup('html');"></div>
+                        </div> -->
+                        <a class="skills-button" id="CSS" onclick="skillSelected(this);"><span class="skills-name">CSS</span></a>
+                        <a class="skills-button" id="JavaScript" onclick="skillSelected(this);"><span class="skills-name">JavaScript</span></a>
+                        <a class="skills-button" id="JQuery" onclick="skillSelected(this);"><span class="skills-name">JQuery</span></a>
+                        <a class="skills-button" id="Java" onclick="skillSelected(this);"><span class="skills-name">Java</span></a>
+                        <!-- <div id="java" class="popup">
+                            Java 
+                            <div class="cancel" id="javaClose" onclick="closePopup('java');"></div>
+                        </div> -->
+                        <a class="skills-button" id="C#" onclick="skillSelected(this);"><span class="skills-name">C#</span></a>
+                        <a class="skills-button" id="SQL" onclick="skillSelected(this);"><span class="skills-name">SQL</span></a>
+                        <a class="skills-button" id="Git" onclick="skillSelected(this);"><span class="skills-name">Git</span></a>
                         <h3 class="skills-subtitle">Job Experience</h3>
-                        <span class="skills-name">I occasionally teach highschool Java as a private tutor. I am still a student at Varsity College IIE, no professional job experience as of yet.</span>
+                        <span id="view-skill">Tutored Java to several grade 10 to 12 students at my old highschool (Hatfield Christian School). <br><br> I am currently studying computer science at Varsity College IIE, no professional job experience as of yet.</span>
                     </div>
                     <div class="skills-img">
                         <img src="assets/img/skill.jpg" alt="Skills Image">
+                        <div id="skills-link" class="skills-link">Hello</div>
                     </div>
                 </div>
             </section>
@@ -198,6 +206,7 @@
         </footer>
 
         <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/main.js"></script>
         <!-- Scroll Reveal -->
         <script src="https://unpkg.com/scrollreveal"></script>
